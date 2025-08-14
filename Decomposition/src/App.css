@@ -1,0 +1,298 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 1.5em;
+  /* padding: 1.5em; */
+  /* will-change: filter; */
+  /* transition: filter 300ms; */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* ******************************************** */
+.container {
+  width: 1100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box
+}
+
+.news_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.news,
+.video{  
+  display: flex;
+  flex-direction: row;
+ 
+ 
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: -40px;
+}
+
+.title_block{
+  color: cadetblue;
+  display: flex;
+  /* position: absolute; */
+}
+
+.title_news {
+  color: black;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.search {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  background-color: #e4c35f;
+  font-weight: 700;
+  padding: 5px;
+
+}
+
+.input {
+  width: 80%;
+  height: 50px;
+}
+
+.zzz {
+  color: rgb(71, 17, 17);
+  color: rgb(129, 129, 129);
+}
+
+.label {
+  position: absolute;
+  right: 80px;
+  top: 25%;
+  font-size: 20px;
+}
+
+.list-group {
+  /* position: absolute; */
+  /* left: 0; */
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.hint{
+  display: flex;
+}
+
+.hint-search {
+  color:rgb(129, 129, 129)
+}
+
+.banner{
+  position: relative;
+  background-position: top;
+}
+
+.banner_title,
+.banner_date {
+  position: absolute;
+  
+  font-family: 'Carlito' ;
+}
+
+.banner_title {
+  font-size: 30px;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  color: #e4c35f;
+  background-color: rgb(21, 41, 173);
+  border-radius: 12px;
+  padding: 12px;
+  text-shadow: -1px -1px 5px #eae7e7,
+  /* color: #f4330d; */
+}
+
+.banner_date {
+  font-size: 25px;
+  top: 100px;
+  right: 20px;
+  font-weight: 700;
+  color: #e4c35f;
+  /* color: #f4330d; */
+}
+
+.image{
+ width: 1100px;
+ height: 220px;
+ object-fit:cover;
+ object-position:25% 25%;
+ /* position: absolute; */
+}
+
+.footer {
+  display: flex;
+  width: 1100px;
+  flex-direction: row;
+  gap: 40px;
+  
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  width: 33%;
+  height: 400px;
+  /* background-color: lightgray; */
+  position: relative;
+  
+}
+
+.weather-title,
+.visited-title,
+.main-title ,
+.tv-program-title {
+  color: cornflowerblue;
+}
+
+.weather,
+.visited {
+  display: flex;
+  position: relative;
+}
+
+.weathe-item,
+.weathe-icone,
+.weathe-morning,
+.weathe-day,
+.main-title,
+.schedules,
+.tv-program-title {
+  position: absolute;
+}
+
+.weathe-icone {
+  top: 75px;
+  left: 0px;
+}
+
+.weathe-item{  
+  top: 70px;
+  left: 80px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.weathe-morning{
+  top: 70px;
+  left: 180px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.weathe-day {
+  top: 100px;
+  left: 180px;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.visited {
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.visited-title{
+  position: absolute;
+  top: 10px
+}
+.visited-content{
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.visited-content-item {
+  display: flex;
+}
+
+.main-title,
+.tv-program-title {
+  /* position: absolute; */
+  top: 20px;
+  left: 0px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.schedules {
+  left: 0px;
+  top: 50px;
+}
+
+.tv-progrm-blok{
+  display: flex;
+  gap: 115px;
+}
+
+.tv-program-title {
+  top: 120px
+}
+
+.tv-program{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 170px
+
+}
+
+.broadcast {
+  display: flex;
+
+}
