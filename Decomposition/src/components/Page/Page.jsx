@@ -1,5 +1,5 @@
 /**
- * Главная страницв сайта
+ * Главная страница сайта
  */
 
 import { NewsBlock } from '../News/NewsBlock';
